@@ -1,0 +1,45 @@
+body {
+    
+    background-image:url("bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #436582;
+}
+.container {
+    
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    border-radius: 20px;
+    margin-left: 670px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(135, 132, 167);
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.is-invalid .invalid-feedback {
+    display: block;
+}
+.form-control{
+    border-radius: 360px;
+    
+
+}
+label{
+   font-weight: 900;
+
+}
+.form-text{
+    font: weight 900px;
+    color: rgb(16, 16, 16);
+}
